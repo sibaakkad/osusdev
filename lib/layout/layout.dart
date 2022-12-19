@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:osusdev/controller.dart';
-import 'package:osusdev/settings.dart';
+import 'package:osusdev/layout/controller.dart';
+import 'package:osusdev/modules/settings.dart';
 
-import 'categories.dart';
-import 'home.dart';
-import 'notification.dart';
+import '../modules/categories.dart';
+import '../modules/home.dart';
+import '../notification.dart';
 
 class Layout extends StatelessWidget {
   const Layout({super.key});
